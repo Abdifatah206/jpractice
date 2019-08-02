@@ -3,17 +3,17 @@ body {
 }
 .big{
 
-  width: 500px;
+  width: 800px;
   height: 600px;
   margin: 0 auto;
   padding: 50px;
-  background-color: #5d3c0a ;
+  background-color: lightgrey ;
 }
 div.small{
   width: 300px;
   height: 500px;
   margin: 0 auto;
-  background-color: lightgrey;
+  background-color: #7ebafa;
   border-radius: 25px;
   text-align: center;
 
@@ -24,8 +24,9 @@ div.tit {
   height: 40px;
   margin: 0 auto;
   margin-top: 0 auto;
-  background-color: red;
+  background-color: #5d6d7e ;
 
+text-decoration-color: #5d6d7e;
   font-size: 25px;
   text-align: center;
   padding-top: 10px;
@@ -70,4 +71,120 @@ div.tit {
   padding-top: 20px;
   margin: 0 auto;
 display: inline-block;
+}
+.taxc{
+  width: 130px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+
+div.logins{
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #d7bde2;
+
+  text-align: center;
+  border-style: solid 1px;
+
+
+}
+.signin {
+  background-color: #4CAF50; /* Green */
+   border: none;
+   color: white;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 12px;
+   margin: 4px 2px;
+   cursor: pointer;
+
+}
+.signup {
+  background-color: #4CAF50; /* Green */
+   border: none;
+   color: white;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 12px;
+   margin: 4px 2px;
+   cursor: pointer;
+
+}
+.email{
+  width: 150px;
+  padding: 7px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.pass{
+  width: 150px;
+  padding: 7px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+li a:hover {
+  background-color: #111;
 }

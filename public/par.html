@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<link href="stylesheets/style.css"	type="text/css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+<div class="big">
+<div ng-app="" ng-init="FederalTax=0.16;StateTax=0.12">
+  <div class="small">
+  <div class="tit" > Angular Tax Calculator</div>
+<form class="form" >
+<p>Simple Tax Calculator:</p>
+How much your bill? <br>
+$<input type="number" class="bill" ng-model="Bill" placeholder="Bill Amount"><br>
+Federal Tax <br>
+$<input type="number" class="fedtax" ng-model="FederalTax"  placeholder="Federal Tax" readonly><br>
+State Tax <br>
+$<input type="number" class="statetax" ng-model="StateTax"  placeholder="State Tax" readonly><br>
+Result : {{Bill * FederalTax * StateTax}}
+</form>
+</div>
+</div>
+
+</body>
+</html>
