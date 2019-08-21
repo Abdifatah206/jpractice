@@ -11,10 +11,11 @@ router.get('/all', function(req, res, next) {
   });
 });
 
-router.post('/log', function(req,res,next){
-  var query = "INSERT INTO logs (email, username, password) "
+router.post('/signup', function(req,res,next){
+  var query = "INSERT INTO logs (ID, email, username, password) "
     +"VALUES ( ?, ?, ?, ?);"
   var queryParams = [
+    req.body.ID,
     req.body.email,
     req.body.username,
     req.body.password
