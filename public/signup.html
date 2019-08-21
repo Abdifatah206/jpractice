@@ -12,17 +12,20 @@
 <div class="big">
 
 
-<div class="logins">
+<div class="logins"><br><br>
   <p> Member Register</p>
-  Email:
-  <input type="email" name="" class="email" value="" placeholder="your email" required><br><br>
-  Username:
-  <input type="text" name="" class="pass" value="" placeholder="Username" required><br><br>
-  Password:
-  <input type="password" name="" class="pass" value="" placeholder="password" required><br><br>
-  <button  class="signin">Sign up</button><br><br>
+  <form method='post' action='/api/v1/javas/signup'>
+
+  <input type="email" name="" class="email" value="" placeholder="your email" required><br>
+
+  <input type="text" name="username" class="pass" value="" placeholder="Username" required><br>
+
+  <input type="password" name="password" class="pass" value="" placeholder="password" required><br>
+  <button  class="signin" type="submit">Sign up</button><br><br>
+</form>
 
   <p> Registered ? <a href="log.html">Login</a>
+
 </div>
 
 

@@ -92,6 +92,8 @@ div.logins{
 
 }
 .signin {
+   width: 200px;
+   height: 40px;
   background-color: #4CAF50; /* Green */
    border: none;
    color: white;
@@ -102,9 +104,12 @@ div.logins{
    font-size: 12px;
    margin: 4px 2px;
    cursor: pointer;
+   width: 200px;
 
 }
 .signup {
+   width: 200px;
+   height: 40px;
   background-color: #4CAF50; /* Green */
    border: none;
    color: white;
@@ -116,9 +121,11 @@ div.logins{
    margin: 4px 2px;
    cursor: pointer;
 
+
 }
 .email{
-  width: 150px;
+  width: 200px;
+  height: 40px;
   padding: 7px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -127,7 +134,8 @@ div.logins{
   box-sizing: border-box;
 }
 .pass{
-  width: 150px;
+  width: 200px;
+  height: 40px;
   padding: 7px 20px;
   margin: 8px 0;
   display: inline-block;
