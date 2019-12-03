@@ -1,10 +1,7 @@
 #Simple Logging App
 This is simple app for logging and register, it is used HTML,CSS, JavaScript, Nodejs, Express, MYSQL.
-#Prerequests
-
 
 #Prerequests
-
 Installing.
 
 Node.js
@@ -16,7 +13,6 @@ Expressjs
 https://expressjs.com/en/starter/generator.html
 
 Express Installation.
-
 git init
 express
 cd Taxcalculator
