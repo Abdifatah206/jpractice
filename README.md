@@ -2,6 +2,9 @@
 This is simple app for logging and register, it is used HTML,CSS, JavaScript, Nodejs, Express, MYSQL.
 #Prerequests
 
+
+#Prerequests
+
 Installing.
 
 Node.js
@@ -18,6 +21,12 @@ git init
 express
 cd Taxcalculator
 npm install
+
+
+
+
+
+
 
 
 
