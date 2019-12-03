@@ -14,9 +14,13 @@ Expressjs
 https://expressjs.com/en/starter/generator.html
 
 Express Installation.
+
 git init
+
 express
-cd Taxcalculator
+
+cd MyAppp
+
 npm install
 
 
